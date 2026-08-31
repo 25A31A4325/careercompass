@@ -129,7 +129,7 @@ function DashboardView({ setActiveTab }) {
         <div style={{ position: 'absolute', top: -40, right: -40, width: 200, height: 200, background: 'rgba(56,189,248,0.08)', borderRadius: '50%' }} />
         <div style={{ position: 'absolute', bottom: -60, right: 80, width: 140, height: 140, background: 'rgba(139,92,246,0.08)', borderRadius: '50%' }} />
         <p style={{ margin: '0 0 4px', color: '#94a3b8', fontSize: '0.9rem' }}>Welcome back 👋</p>
-        <h1 style={{ margin: '0 0 8px', fontSize: '1.8rem', fontWeight: 800 }}>Bala Chandrika</h1>
+        <h1 style={{ margin: '0 0 8px', fontSize: '1.8rem', fontWeight: 800 }}>Student</h1>
         <p style={{ margin: '0 0 24px', color: '#cbd5e1' }}>Frontend & Full Stack Developer · Resume last updated 2 days ago</p>
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
           <button onClick={() => setActiveTab('resume')} style={heroBtn('#38bdf8', '#0f172a')}>🔍 Analyze Resume</button>
@@ -325,7 +325,7 @@ function GitHubView() {
           <Card style={{ display: 'flex', gap: 20, alignItems: 'center', flexWrap: 'wrap' }}>
             <div style={{ width: 64, height: 64, borderRadius: '50%', backgroundColor: '#24292e', color: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '1.8rem' }}>🐙</div>
             <div>
-              <h3 style={{ margin: 0, color: '#0f172a' }}>@{username || 'balacHandrika'}</h3>
+              <h3 style={{ margin: 0, color: '#0f172a' }}>@{username || 'student'}</h3>
               <p style={{ margin: '4px 0 0', color: '#64748b', fontSize: '0.9rem' }}>4 public repos · 44 total stars · Active contributor</p>
             </div>
             <button onClick={() => setStage('input')} style={{ marginLeft: 'auto', padding: '8px 16px', backgroundColor: '#f1f5f9', border: 'none', borderRadius: 8, cursor: 'pointer', fontWeight: 600, color: '#475569', fontSize: '0.85rem' }}>
