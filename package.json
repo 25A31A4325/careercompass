@@ -2,6 +2,7 @@
   "name": "careercompass-ai",
   "private": true,
   "version": "1.0.0",
+  "description": "AI Career Copilot - Resume Analyzer, Career Paths, Courses, Mock Interviews, and Smart Job Matching",
   "workspaces": [
     "frontend",
     "backend"
@@ -10,8 +11,9 @@
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
     "dev:frontend": "npm run dev --workspace=frontend",
     "dev:backend": "npm run dev --workspace=backend",
+    "start": "concurrently \"npm run start --workspace=backend\" \"npm run start --workspace=frontend\"",
     "install:all": "npm install && npm install --workspace=frontend && npm install --workspace=backend",
-    "build": "npm run build --workspace=frontend && npm run build --workspace=backend"
+    "build": "npm run build --workspace=frontend"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
